@@ -30,7 +30,7 @@ def predict(text):
     return label, max(prob)
 
 if __name__ == "__main__":
-    print("🧠 Fake News Detector — Day 76\n")
+    print("🧠 Fake News Detector \n")
     msg = input("Enter news article: ")
     label, conf = predict(msg)
     print(f"\nResult: {label}")
